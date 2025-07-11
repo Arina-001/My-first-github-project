@@ -45,6 +45,10 @@ background-image:url(B12A01-landing-launchpad/Assets/Hero-bg.png) ;
      border: none;
      border-radius: 0.5rem;
 }
+.but:hover{
+     background-color: orange;
+  transform: scale(1.03);
+}
 .heading{
     height: 200px;
     width: 650px;
@@ -202,4 +206,60 @@ font-size: 40px;
 .reviewer-info span {
   font-size: 12px;
   color: gray;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-text h1 {
+  font-size: 48px;
+  color: #000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  padding: 14px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+  background-color: orange;
+  transform: scale(1.03);
 }
