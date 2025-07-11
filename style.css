@@ -25,7 +25,7 @@ background-image:url(B12A01-landing-launchpad/Assets/Hero-bg.png) ;
     font-size: 24px;
     font-weight: 900;
      font-style:Roman;
-     color:#353dde;
+     color:#4f46e5;
 }
 
 .Sign-up{
@@ -41,7 +41,7 @@ background-image:url(B12A01-landing-launchpad/Assets/Hero-bg.png) ;
     padding-left: 27px;
      padding-right: 27px;
      color: rgba(252, 242, 242, 0.936);
-     background-color:#353dde;
+     background-color:#4f46e5;
      border: none;
      border-radius: 0.5rem;
       transition: background-color 0.3s ease, transform 0.2s ease;
@@ -97,7 +97,7 @@ span{
     display: flex;
     border-radius: 2rem;
    
-      background-color:#4e47ff;
+      background-color:#4f46e5;
        background-color:#deddfd;
   padding: 50px 0;
   text-align: center;
