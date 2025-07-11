@@ -44,10 +44,11 @@ background-image:url(B12A01-landing-launchpad/Assets/Hero-bg.png) ;
      background-color:#353dde;
      border: none;
      border-radius: 0.5rem;
+      transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .but:hover{
      background-color: orange;
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 .heading{
     height: 200px;
@@ -261,5 +262,5 @@ font-size: 40px;
 
 .contact-form button:hover {
   background-color: orange;
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
